@@ -1,0 +1,20 @@
+
+
+body {
+    background-image: url("prop-box.jpg");
+    background-size: 100%;
+}
+
+h1, p {
+    margin: auto;
+    text-align: center;
+}
+
+fieldset {
+    margin: auto;
+    background-color: rgba(154, 178, 137, 0.6);
+}
+
+label {
+    display: block;
+}
