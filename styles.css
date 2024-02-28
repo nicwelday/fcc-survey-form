@@ -3,6 +3,14 @@
 body {
     background-image: url("prop-box.jpg");
     background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+form {
+    margin: auto;
 }
 
 h1, p {
@@ -12,9 +20,44 @@ h1, p {
 
 fieldset {
     margin: auto;
-    background-color: rgba(154, 178, 137, 0.6);
+    background-color: rgba(154, 178, 137, 0.7);
+    border: black;
+    padding: 1em;
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 6px auto;
 }
 
 label {
     display: block;
+    padding: 3px;
+    margin: 3px;
+}
+
+textarea {
+    display:block;
+    margin: 2px;
+    padding: 3px;
+}
+
+div {
+    margin: 10px;
+}
+
+.box-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 3px auto;
+    margin-bottom: 3px;
+    height: 1.8em;
+    font-size: 1.1 rem;
+    border: none;
+    background-color: rgb(193, 198, 54);
+    font-weight: bold;
 }
